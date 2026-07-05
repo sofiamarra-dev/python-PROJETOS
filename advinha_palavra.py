@@ -27,4 +27,5 @@ while True:
     if palavra_formada == palavra_secreta:
         print("VOCE GANHOU!! PARABÉNS!")
         print(f"a palavra era {palavra_formada}")
+        break
                     
