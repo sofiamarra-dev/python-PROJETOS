@@ -13,7 +13,7 @@ while True:
     for letra_secreta in palavra_secreta:
        if letra_secreta in letras_acertadas:
         print(letra_secreta)
-    else:
+       else:
         print("*")
         
     palavra_formada = ""  
