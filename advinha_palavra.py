@@ -1,8 +1,9 @@
 palavra_secreta = "perfume"
 letras_acertadas = ""
+numero_tentativa = 0
 while True:
     letra_digitada = input("digite uma letra:")
-
+    numero_tentativa += 1
     if len(letra_digitada) > 1:
         print("digite apenas uma letra")
         continue
@@ -27,5 +28,6 @@ while True:
     if palavra_formada == palavra_secreta:
         print("VOCE GANHOU!! PARABÉNS!")
         print(f"a palavra era {palavra_formada}")
+        print(f"numero total de tentativas foi {numero_tentativa}")
         break
                     
